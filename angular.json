@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "test-aloe-front"
+    }
+  },
+  "defaultProject": "test-aloe-front",
+  "cli": {
+    "analytics": "dcbc20b1-7ab6-4a8d-83e2-08d7a4c9a154"
+  }
 }

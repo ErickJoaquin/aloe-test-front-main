@@ -1,0 +1,47 @@
+
+<div class="col-md-12 mt-4">
+    <h1 class="text-danger">Crear Usuario</h1>
+</div>
+<div class="col-md-12">
+    <form (ngSubmit)="guardar()">
+        <div class="formContent">
+            <div class="formInput">
+                <label for="">Nombre</label>
+                <input class="lInput" type="text" formControlName="Nombre" />
+            </div>
+            <div class="formInput">
+                <label for="">Apellido</label>
+                <input class="lInput" type="text" formControlName="Apellido" />
+            </div>
+            <div class="formInput">
+                <label for="">Genero</label>
+                <input class="lInput" type="text" formControlName="Genero" />
+            </div>
+            <div class="formInput">
+                <label for="">Cedula</label>
+                <input class="lInput" type="text" formControlName="Cedula" />
+            </div>
+            <div class="formInput">
+                <label for="">FechaNacimiento</label>
+                <input class="lInput" type="text" formControlName="FechaNacimiento" />
+            </div>
+            <div class="formInput">
+                <label for="">Departamento</label>
+                <input class="lInput" type="text" formControlName="DepartamentoId" />
+            </div>
+            <div class="formInput">
+                <label for="">Cargo</label>
+                <input class="lInput" type="text" formControlName="cargo" />
+            </div>
+            <div class="formInput">
+                <label for="">Supervisor</label>
+                <input class="lInput" type="text" formControlName="Supervisor" />
+            </div>
+            <div class="formInput">
+                
+                <input class="lInput" type="submit" value="Crear" />
+            </div>
+        </div>
+    </form>
+</div>
+
